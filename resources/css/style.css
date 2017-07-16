@@ -1,0 +1,43 @@
+main{
+  width: 1200px;
+  height: 600px;
+  background-color: pink;
+  display: flex;
+}
+p{
+  width: 200px;
+  background-color: aqua;
+}
+h2{
+  background: blue;
+  width: 250px;
+}
+.box p{
+  background-color: yellow;
+}
+.wide p, h2{
+  background-color: red;
+}
+.box{
+  background-color: green;
+}
+.box.wide{
+  background-color: violet;
+}
+#unique{
+  background-color: blue;
+}
+#unique p{
+  background-color: purple;
+}
+
+*{
+  outline: solid #f00 1px !important;
+}
+/*Ghost Debug Code
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
